@@ -16,7 +16,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="logos/favicon.ico" alt="" width="70"></a>
+            <a class="navbar-brand" href="#"><img src="img/logos/favicon.ico" alt="" width="70"></a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -40,10 +40,12 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalId-1">Registrate</a>
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#modalId-1">Registrate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inicia sesión</a>
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalId-2">Inicia
+                                sesión</a>
                         </li>
                     </ul>
                 </div>
@@ -149,30 +151,11 @@
             </div>
         </div>
 
-        <!-- Modal trigger button -->
-        <button
-            type="button"
-            class="btn btn-primary btn-lg"
-            data-bs-toggle="modal"
-            data-bs-target="#modalId-2"
-        >
-            Launch
-        </button>
-        
+
         <!-- Modal Body -->
-       <div
-            class="modal fade"
-            id="modalId-2"
-            tabindex="-1"
-            
-            role="dialog"
-            aria-labelledby="iniciarsesion"
-            aria-hidden="true"
-        >
-            <div
-                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
-                role="document"
-            >
+        <div class="modal fade" id="modalId-2" tabindex="-1" role="dialog" aria-labelledby="iniciarsesion"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="iniciarsesion">
@@ -182,44 +165,27 @@
                     <div class="modal-body">
                         <div class="mb-3">
                             <label for="" class="form-label">Usuario</label>
-                            <input
-                                type="text"
-                                class="form-control"
-                                name=""
-                                id=""
-                                aria-describedby="helpId"
-                                placeholder=""
-                            />
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="" />
                         </div>
-                        
+
                         <div class="mb-3">
                             <label for="" class="form-label">Contraseña</label>
-                            <input
-                                type="text"
-                                class="form-control"
-                                name=""
-                                id=""
-                                aria-describedby="helpId"
-                                placeholder=""
-                            />
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="" />
                         </div>
 
                         <div class="d-grid gap-2">
-                            <button
-                                type="button"
-                                name=""
-                                id=""
-                                class="btn btn-success"
-                            >
+                            <button type="button" name="" id="" class="btn btn-success">
                                 Entrar
                             </button>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Optional: Place to the bottom of scripts -->
         <script>
             const myModal = new bootstrap.Modal(
@@ -227,7 +193,7 @@
                 options,
             );
         </script>
-        
+
 
         </div>
 
