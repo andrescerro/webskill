@@ -1,43 +1,247 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>webskills</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+<head>
+    <title>webskills</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="logos/favicon.ico" alt="" width="70"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Inicio
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Anfibios</a>
+                                <a class="dropdown-item" href="#">Aves</a>
+                                <a class="dropdown-item" href="#">Mamiferos</a>
+                                <a class="dropdown-item" href="#">Peces</a>
+                                <a class="dropdown-item" href="#">Reptiles</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalId-1">Registrate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicia sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main></main>
+
+    <footer>
+        <div class="row  justify-content-between bg-secondary">
+            <h2 class="text-center mt-2 mb-2">CLM SKILLS WEB - HTML1</h2>
+            <div class="col">
+                <a class="btn btn-success" href="#top">SUBIR</a>
+            </div>
+            <div class="col text-center">
+                <p>Centros participantes</p>
+                <div><a href="http://www.ies-azarquiel.es/">I.E.S. Azarquiel</a></div>
+                <div><a href="http://www.iesjuanbosco.es/">I.E.S. Juan Bosco</a></div>
+                <div><a href="http://iesmaestredecalatrava.es/">I.E.S. Maestre de Calatrava</a></div>
+                <div><a href="https://cifpvirgendegracia.com/">C.I.F.P. Virgen de Gracia</a></div>
+                <div><a href="http://www.iesgregorioprieto.com/">I.E.S. Gregorio Prieto</a></div>
+                <div><a href="https://www.iespedromercedes.es/">I.E.S. Pedro Mercedes</a></div>
+                <div><a href="http://briandademendoza.es/">I.E.S. Brianda de Mendoza</a></div>
+                <div><a href="http://riberadeltajo.es/nuevaweb/">I.E.S. Ribera del Tajo</a></div>
+
+            </div>
+            <div class="col text-center">
+                <div><a href="" class="text-white">Quienes somos</a></div>
+                <div><a href="" class="text-white">Privacidad</a></div>
+                <div><a href="" class="text-white">Contacto</a></div>
+            </div>
+            <div class="col">
+                <a class="btn btn-success" href="#home">HOME</a>
+            </div>
+            <p class="text-center mt-2 mb-1">Catálogo de animales S1DAM - S1DAW</p>
+        </div>
+
+        <!-- Modal Body -->
+        <div class="modal fade" id="modalId-1" tabindex="-1" role="dialog" aria-labelledby="registrate"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="registrate">
+                            Registro de usuario
+                        </h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Usuario</label>
+                            <input type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="" class="form-label">Contraseña</label>
+                            <input type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="" class="form-label">Repite la contraseña</label>
+                            <input type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email</label>
+                            <input type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="" class="form-label">Dirección</label>
+                            <input type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="" class="form-label">Teléfono</label>
+                            <input type="text" name="" id="" class="form-control" placeholder=""
+                                aria-describedby="helpId" />
+
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="button" name="" id="" class="btn btn-success ">
+                                Entrar
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal trigger button -->
+        <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId-2"
+        >
+            Launch
+        </button>
+        
+        <!-- Modal Body -->
+       <div
+            class="modal fade"
+            id="modalId-2"
+            tabindex="-1"
+            
+            role="dialog"
+            aria-labelledby="iniciarsesion"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="iniciarsesion">
+                            INICIA SESIÓN
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Usuario</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name=""
+                                id=""
+                                aria-describedby="helpId"
+                                placeholder=""
+                            />
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="" class="form-label">Contraseña</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name=""
+                                id=""
+                                aria-describedby="helpId"
+                                placeholder=""
+                            />
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button
+                                type="button"
+                                name=""
+                                id=""
+                                class="btn btn-success"
+                            >
+                                Entrar
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId"),
+                options,
+            );
+        </script>
+        
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
